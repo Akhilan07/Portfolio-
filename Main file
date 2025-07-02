@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .project {
+      background: #fff;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer | Student | Programmer</p>
+  </header>
+  <section>
+    <h2>About Me</h2>
+    <p>Hi! I'm a beginner web developer creating cool projects with HTML, CSS, and JavaScript.</p>
+  </section>
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Calculator</h3>
+      <p>A simple calculator made using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>This responsive portfolio site is built with pure HTML and CSS.</p>
+    </div>
+  </section>
+  <section>
+    <h2>Contact</h2>
+    <p>Email: yourname@example.com</p>
+  </section>
+</body>
+</html>
